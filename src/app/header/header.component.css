@@ -1,0 +1,17 @@
+.form-control{
+    border-radius: 10px;
+    width: 600px;
+    margin-left: 28px;
+    margin-top: 5px;
+}
+
+header{
+    background-color: rgb(235, 146, 14);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.cart-button{
+    position: absolute;
+    right: 2rem;
+}
