@@ -5,7 +5,10 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductComponent } from './product/product.component';
-
+import { HttpClientModule} from '@angular/common/http';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +17,10 @@ import { ProductComponent } from './product/product.component';
     ProductComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    RouterModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,1 +1,16 @@
-<p>product works!</p>
+<div class="card-top container-fluid">
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <ng-container *ngFor ="let item of products">
+            <div class="card col-md-3">
+                <img src="{{item.image}}" alt="" draggable="false">
+                <h5 style="white-space:nowrap; overflow:hidden; text-overflow:ellipsis; max-width:100ch">{{item.title}}</h5>
+                <p style="font-size: x-large;"><strong>${{item.price}}</strong></p>
+                <button class="btn btn-primary">Add to Cart</button>
+            </div>
+        </ng-container>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.card{
+    padding: 20px;
+    margin: 50px;
+    justify-content: center;
+    display: flex;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+.card img{
+    width: 200px;
+    height: 200px;
+
+    margin-bottom: 5px;
+    transition: 0.3s ease-out;
+}
