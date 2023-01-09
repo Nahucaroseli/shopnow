@@ -7,8 +7,6 @@
                         <td><img src="{{item.image}}" alt="" id="itemImage"></td>
                         <td>{{item.title}}</td>
                         <td><p style="font-size: x-large;"><strong>${{item.price}}</strong></p></td>
-                        <td>{{item.quantity}}</td>
-                        <td>{{item.total}}</td>
                         <td>
                             <button (click)="removeItem(item)" class="btn btn-danger"><i class="bi bi-x-circle-fill"></i></button>
                         </td>
@@ -27,7 +25,7 @@
         </div>
         <div class="center">
             <img src="assets/empty_cart.png" alt="" draggable="false" id="emptyCartImage">
-            <button class="btn btn-primary">Shop Now!</button>
+            <button routerLink="/products" class="btn btn-primary">Shop Now!</button>
         </div>
     </div>
 </ng-container>
