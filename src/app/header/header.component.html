@@ -4,15 +4,15 @@
             <i class="bi bi-bag-fill" style="font-size: 30px;">&nbsp;
                
             </i>
-            <strong style="font-size: 30px;">ShopNow</strong>
+            <strong style="font-size: 30px;" class="logo" routerLink="products">ShopNow</strong>
             <div class="form-gropu">
                 <input type="text" class="form-control" placeholder="Search products">
             </div>
         </div>
        
     </div>
-    <div class="cart-button">
+    <div class="cart-button" routerLink="cart">
         <i class="bi bi-cart3" style="font-size: 35px;"></i>
-        <div style="font-size:10px" class="badge bg-danger">2</div>
+        <div style="font-size:10px" class="badge bg-danger">{{totalItems}}</div>
     </div>
 </header>

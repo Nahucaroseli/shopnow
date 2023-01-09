@@ -5,6 +5,11 @@
     margin-top: 5px;
 }
 
+.logo{
+    user-select: none;
+
+}
+
 header{
     background-color: rgb(235, 146, 14);
     height: 60px;
@@ -14,4 +19,8 @@ header{
 .cart-button{
     position: absolute;
     right: 2rem;
+}
+
+.cart-button:hover,.logo:hover{
+    cursor: pointer;
 }
