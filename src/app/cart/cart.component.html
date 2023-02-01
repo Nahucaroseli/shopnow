@@ -13,6 +13,12 @@
                     </tr>
                 </tbody>
             </table>
+            <button class="btn btn-danger emptycart" (click)="emptyCart()">Empty Cart</button>
+            <div class="buttons">
+                <h4>Total</h4>
+                <strong>${{total}}</strong>
+                <ngx-paypal [config]="payPalConfig"></ngx-paypal>
+            </div>         
         </div>
     </div>
 </ng-container>

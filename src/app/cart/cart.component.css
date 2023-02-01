@@ -29,3 +29,23 @@
     text-align: center;
     top: 27%;
 }
+
+.buttons{
+    align-items: center;
+    width: 10%;
+    display: flex;
+    margin-top: 0;
+    top: 90%;
+    position: relative;
+    flex-direction: column;
+    left: 68%;
+}
+
+.emptycart{
+    position: relative;
+    left: 17%;
+}
+
+.buttons p{
+    margin-left: 2rem;
+}
