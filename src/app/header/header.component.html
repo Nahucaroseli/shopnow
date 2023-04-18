@@ -1,18 +1,11 @@
-<header>
-    <div>
-        <div class="navbar-brand align-item-center d-flex">
-            <i class="bi bi-bag-fill" style="font-size: 30px;">&nbsp;
-               
-            </i>
-            <strong style="font-size: 30px;" class="logo" routerLink="products">ShopNow</strong>
-            <div class="form-gropu">
-                <input type="text" class="form-control" placeholder="Search products">
-            </div>
-        </div>
-       
-    </div>
-    <div class="cart-button" routerLink="cart">
-        <i class="bi bi-cart3" style="font-size: 35px;"></i>
-        <div style="font-size:10px" class="badge bg-danger">{{totalItems}}</div>
-    </div>
+<header class="header">
+
+    <a href="#" class="logo" routerLink="products"> <i class="fas fa-shop"></i>shopnow</a>
+
+    <nav class="navbar">
+        <a href="#" routerLink="cart"><i class="fa-solid fa-cart-shopping"></i>
+            <div style="font-size: 40%;" class="badge bg-danger">{{totalItems}}</div></a>
+   
+
+    </nav>
 </header>

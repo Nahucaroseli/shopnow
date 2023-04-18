@@ -1,3 +1,42 @@
+.home{
+    background: url(src/assets/home.png) no-repeat;
+    min-height: 85vh;
+    
+    background-position: right;
+    display: flex;
+    align-items: center;
+    background-size: contain;
+}
+
+.home .content{
+    max-width: 55rem;
+}
+
+.home .content h3{
+    position: absolute;
+    top: 30%;
+    font-size: 4rem;
+    margin-left: 10rem;
+    color: black;
+    line-height: 1.2;
+}
+
+.home .content h3 span{
+    color: var(--primary);
+    text-transform: uppercase;
+}
+
+.home .content p{
+    font-size: 1.4rem;
+    position: absolute;
+    top: 38%;
+    color:black;
+    margin-left: 10.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+
 .card{
     padding: 20px;
     margin: 50px;
