@@ -17,7 +17,7 @@ export class CartComponent {
   ngOnInit(){
     this.cart.getProducts().subscribe(res=>{
       this.products = res;
-      this.total = this.cart.getTotalPrice();
+      this.total = Math.floor(this.cart.getTotalPrice());
     })
     this.initConfig();
   }

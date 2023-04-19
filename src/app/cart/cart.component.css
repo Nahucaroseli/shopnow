@@ -12,6 +12,13 @@
     height: 150px;
 }
 
+.content_account{
+    margin-left: 15rem;
+    margin-top: 1rem;
+    text-transform: lowercase;
+    font-weight:bolder;
+}
+
 .table{
     position: relative;
     left:15%;
@@ -34,10 +41,10 @@
     align-items: center;
     width: 10%;
     display: flex;
-    margin-top: 0;
-    position: relative;
+    margin-top: -7rem;
+    margin-right: 20rem;
+    float: right;
     flex-direction: column;
-    left: 68%;
 }
 
 .emptycart{
